@@ -1,4 +1,6 @@
+// this script is embedded in iframe.
 <script>
+    // adding event listener on load to avoid getting undefined value for variable button.
     window.addEventListener('load', function () {
         var button = document.getElementsByClassName('go-button');
         console.log(button[0]);
